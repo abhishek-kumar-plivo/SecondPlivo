@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "117874702979",
+    "project_id": "plivo-new-app",
+    "storage_bucket": "plivo-new-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117874702979:android:94d49a6cad94931523f9b6",
+        "android_client_info": {
+          "package_name": "com.example.secondplivo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117874702979-tlfp5nqf8dv1kbjfop472814krb20npt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.secondplivo",
+            "certificate_hash": "9c71d559264957bdb18b7e3bfc75e797f869b067"
+          }
+        },
+        {
+          "client_id": "117874702979-0ptvo2aivr3vb7kn009ad1jkg92gbvjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdfazzFmP1VBukkKTDHV_ugG21hk2oqy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117874702979-0ptvo2aivr3vb7kn009ad1jkg92gbvjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
