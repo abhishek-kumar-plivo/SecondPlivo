@@ -2,6 +2,9 @@ package com.example.secondplivo;
 
 public class Util {
 
+
+
+
     public String getDeviceToken() {
         return DeviceToken;
     }
@@ -11,4 +14,6 @@ public class Util {
     }
 
     static String DeviceToken = "";
+    static String userName = "abhishek32668134349748736166";
+    static String password = "12345";
 }

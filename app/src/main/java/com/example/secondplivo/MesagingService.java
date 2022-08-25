@@ -128,6 +128,6 @@ public class MesagingService extends FirebaseMessagingService {
         });
         Log.d(TAG, "onMessageReceived: 1");
         HashMap<String, String> pushMap = new HashMap<>(message.getData());
-        endpoint.loginForIncomingWithUsername( "abhishek32668134349748736166", "12345",Util.DeviceToken,"fc75fad807902faf3a3ec43d68073334",pushMap);
+        endpoint.loginForIncomingWithUsername(Util.userName, Util.password,Util.DeviceToken,"fc75fad807902faf3a3ec43d68073334",pushMap);
     }
 }

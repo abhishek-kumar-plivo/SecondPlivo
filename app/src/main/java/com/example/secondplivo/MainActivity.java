@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(this, instanceIdResult ->{
                 Log.d(TAG, "login: device_token :"+instanceIdResult.getToken());
                 Util.setDeviceToken(instanceIdResult.getToken());
-                endpoint.login( "abhishek32668134349748736166", "12345",instanceIdResult.getToken(),"fc75fad807902faf3a3ec43d68073334");});
+                endpoint.login( Util.userName, Util.password,instanceIdResult.getToken(),"fc75fad807902faf3a3ec43d68073334");});
     }
 
     private void logout() {
